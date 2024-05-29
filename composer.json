@@ -1,0 +1,29 @@
+{
+  "name": "matheusgzancanela/phptips014",
+  "description": "CONVERTENDO HTML PARA PDF COM PHP E DOMPDF | PHP TIPS #014",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "dompdf/dompdf": "3.0.*"
+  }
+}
